@@ -1,0 +1,122 @@
+.mainBox{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+.leftBox{
+    height: 500px;
+    border-radius: 20px;
+    padding: 50px;
+    width: 40vw;
+    background-color: var(--boxcolor);
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: .8px;
+    color: var(--greencolor);
+
+}
+.heading2{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.formField{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    background-color: var(--btncolor3);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    color: var(--fontcolor);
+}
+.Buttons{
+    width: 100%;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+.rightBox{
+    border-radius: 20px;
+    height: 500px;
+    padding: 20px;
+    width: 40vw;
+    background-color: var(--boxcolor);
+}  
+button{
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--fontcolor);
+
+}
+.subBtn{
+    background-color: var(--orange);
+}
+.Cbtn{
+    background-color: var(--greencolor);
+}
+.userList{
+    height: 400px;
+    overflow-y: scroll;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    display: none;
+}
+.mainuser{
+    background-color: var(--btncolor3);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.mainuser:hover{
+    background-color: var(--bgcolor);
+}
+.Avatar{
+    border: 2px solid var(--orange);
+    width: 90px;
+    height: 90px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.usertitle{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+
+}
+.userEmail{
+    color: var(--lablecolor);
+    font-size: 18px;
+}
+.userPhone{
+    color: var(--lablecolor);
+}
+
+.not{
+    font-size: 30px;
+    color: var(--lablecolor);
+}
+
+.userBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.footerBox{
+    position: absolute;
+    bottom: 30px;
+}
